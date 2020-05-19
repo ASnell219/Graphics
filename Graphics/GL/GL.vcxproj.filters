@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\Core\engine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\timer.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\input.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\shader.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\file_system.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\vertex_array.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middleware\glad\src\glad.c">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenes\scene02.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\vertices.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenes\scene01.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenes\scene03.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\material.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Objects\directional_light.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Objects\light.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Objects\point_light.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenes\scene04.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Objects\cube.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Objects\model.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Objects\sphere.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Objects\torus.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\vertex_arrays.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Objects\plane.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Objects\camera.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenes\scene05.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenes\scene06.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Objects\spotlight_light.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenes\scene07.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middleware\imgui-master\examples\imgui_impl_opengl3.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middleware\imgui-master\examples\imgui_impl_sdl.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middleware\imgui-master\imgui.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middleware\imgui-master\imgui_draw.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middleware\imgui-master\imgui_widgets.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\ui.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenes\scene08.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenes\scene09.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenes\scene10.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenes\scene11.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenes\scene12.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenes\scene16.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{9ae0ffa9-6f1c-4f29-a618-481839f56cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{510c11d7-e09a-4762-b982-ded16b11df70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{6bb4abab-8ca1-4bdc-8861-6b7b0f0268e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{36dcf222-6499-48fa-97c4-d7e6c72f0efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{2ce311c8-aea1-4979-b47e-3093dabb7074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{ed004cd9-c9f5-4d9b-8872-672597496c77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{6311ca6e-fd4d-499b-a9d1-5cba3d522b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{65bf7090-32d2-474e-9a5e-c355e09cfa2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Core\engine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\system.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\timer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\input.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\shader.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\file_system.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\renderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\vertex_array.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\scene01.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\scene.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\scene02.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\object.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\scene03.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\material.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Objects\directional_light.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Objects\light.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Objects\point_light.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\scene04.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Objects\cube.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Objects\model.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Objects\sphere.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Objects\torus.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\vertex_arrays.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Objects\plane.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Objects\camera.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\scene05.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Objects\renderable.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\scene06.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Objects\spotlight_light.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\scene07.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\ui.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\transform.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\scene08.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\scene09.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\scene10.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\scene11.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\scene12.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\scene16.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shaders\basic.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\basic.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\basic_uv.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\basic_uv.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\gouraud.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\gouraud.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\gouraud_ads.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\phong.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\phong.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\phong_multi_texture.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\phong_multi_texture.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\phong_specular_map.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\phong_specular_map.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\phong_uv.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\phong_uv.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\phong_fog.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\phong_fog.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\basic_color.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\basic_color.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\phong_spotlight.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\phong_spotlight.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\cubemap.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\cubemap.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\phong_normal.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\phong_nm.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\phong_nm.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\shadow.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\shadow.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\shadow_debug.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\shadow_debug.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\phong_shadow.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\phong_shadow.vs">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
